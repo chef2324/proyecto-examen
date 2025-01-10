@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Nombre de la Pagina</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/styles.css" />
+    <link rel="shortcut icon" type="image/png" href="../img/favicon.png" />
+    <script defer>
+          function agregarRegistro() {
+          event.preventDefault(); // Evitar el envío del formulario
+          
+      } </script>
+  </head>
+
+<body>
+  <header>
+    <div class="wrapper">
+      <div class="logo">Logo</div>
+      <nav class="navegacion">
+        <div class="menu" id="menu">
+          <a href="../index.html" class="item">Inicio</a>
+          <a href="#sec1" class="item">Servicios</a>
+          <a href="#sec2" class="item">Nosotros</a>
+          <a  href="#" class="item">Contactanos</a>
+        </div>
+      </nav>
+    </div>
+    <div class="banner">
+      <img src="../img/banner1.jpg" alt="pepep" />
+      <h1>Formulario de Registro</h1>
+    </div>
+  </header>
+  <main>
+    <section>
+        <div class="nosotros">
+            <div class="text-nosotros">
+                <div class="container">
+                    <form id="formularioRegistro" onsubmit="return agregarRegistro(event)">
+                        <p>
+                            <label for="nombre" class="text-dark">Nombre</label>
+                              <input type="text" name="introducir_nombre" id="nombre"  placeholder="Escribe tu nombre">
+                          </p>
+                          <p>
+                            <label for="email" class="text-dark">Email</label>
+                              <input type="email" name="introducir_email" id="email"  placeholder="Escribe tu Email">
+                          </p>
+      
+                          <p>
+                            <label for="asunto" class="text-dark">Asunto</label>
+                              <input type="text" name="introducir_asunto" id="asunto"  placeholder="Escribe un asunto">
+                          </p>		
+                        
+                          <p>
+                            <label for="mensaje" class="text-dark">Mensaje</label>                     
+                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" placeholder="Deja aquí tu comentario..." ></textarea> 
+                          </p>	  								
+                                              
+                        <input type="submit" value="Agregar Registro">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+        <!-----FOOTER ------>
+    <footer>
+        <div class="sociales">
+        <h3>Siguenos en:</h3>
+        <a href="http://facebook.com/" target="_blank class="icon"> <img src="img/icono1.png" alt="" /> </a>
+        <a href="http://instagram.com/" target="_blank class="icon"> <img src="img/icono3.png" alt="" /> </a>
+        <a href="http://twitter.com/" target="_blank class="icon"> <img src="img/icono2.png" alt="" /> </a>
+        </div>
+        <div class="mini-footer">
+        <h3>@Email.com</h3>
+        </div>
+    </footer>
+</body>
+
+</html>

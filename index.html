@@ -6,8 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Nombre de la Pagina</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
-  <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+  <link rel="stylesheet" type="text/css" media="screen" href="./css/styles.css" />
+  <link rel="shortcut icon" type="image/png" href="/img/favicon.png" />
+  <script src="./js/main.js" defer> </script>
 </head>
 
 <body>
@@ -19,14 +20,12 @@
           <a href="#" class="item">Inicio</a>
           <a href="#sec1" class="item">Servicios</a>
           <a href="#sec2" class="item">Nosotros</a>
-          <a class="modal-toggle">
-            <span id="abrir" class="item">Contactanos</span>
-          </a>
+          <a  href="./html/contactanos.html" class="item">Contactanos</a>
         </div>
       </nav>
     </div>
     <div class="banner">
-      <img src="img/banner1.jpg" alt="" />
+      <img src="img/nationalgeographic_1468962.jpg" alt="" />
       <h2>Bienvenido</h2>
       <a href="#"></a>
     </div>
@@ -136,7 +135,7 @@
           </div>
         </div>
       </div>
-      <section>
+    </section>
         <!-----FOOTER ------>
         <footer>
           <div class="sociales">
@@ -151,36 +150,8 @@
         </footer>
       </section>
   </main>
-  <!---------- MODAL ------------>
-  <h1>Formulario de Registro</h1>
-
-  <div class="container">
-      <form id="formularioRegistro" onsubmit="return agregarRegistro(event)">
-          <label for="nombre">Nombre:</label>
-          <input type="text" id="nombre" name="nombre" required>
-
-          <label for="correo">Correo electrónico:</label>
-          <input type="email" id="correo" name="correo" required>
-
-          <label for="mensaje">Mensaje:</label>
-          <textarea id="mensaje" name="mensaje" required></textarea>
-
-          <input type="submit" value="Agregar Registro">
-      </form>
-
-      <div class="registro-lista" id="registroLista">
-          <h3>Registros:</h3>
-          <!-- Los registros se agregarán aquí -->
-      </div>
-  </div>
-
-  <script>
-      // Función para agregar un registro al DOM
-      function agregarRegistro(event) {
-          event.preventDefault(); // Evitar el envío del formulario
-
-           
-        <script> src=""> </script>
+  
+  
 </body>
 
 </html>

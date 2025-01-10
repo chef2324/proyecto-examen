@@ -71,7 +71,7 @@ hr {
     clip-path: polygon(0% 0%, 0% 100%, 0 100%, 100% 80%, 100% 80%, 100% 100%, 0 100%, 0 100%, 100% 100%, 100% 0%);
 }
 
-.banner h2 {
+.banner h1 {
     position: relative;
     text-align: center;
     margin-top: -300px;
